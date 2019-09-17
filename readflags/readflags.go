@@ -13,7 +13,7 @@ import (
 var input = flag.String("f", "", "Input file path")
 var help = flag.String("h", "", "Help")
 
-// Init körs innan main, parse för att göra flaggorna körbara
+// Init körs innan main, parse för att tolka flaggorna
 func init() {
 	flag.Parse()
 }
